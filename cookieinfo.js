@@ -45,7 +45,7 @@
     container.appendChild(link);
     document.body.appendChild(container);
 
-    monster.set('cookieinfo', 'true', 365);
+    monster.set('cookieinfo', 'true', 365, '/grafmag-cookieinfo/');
 
     return true;
 })();

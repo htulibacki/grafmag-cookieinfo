@@ -4,6 +4,33 @@
         <meta charset="utf-8" />
         <title>Cookie info</title>
         <link rel="stylesheet" href="style.css" />
+        <style>
+            body {
+                font-family: Arial, Verdana, sans-serif;
+            }
+
+            h1 {
+                padding: 30px; 
+                font-size: 32px; 
+                color: #196abc;
+                margin: 0px;
+            }
+
+            p {
+                margin: 0px;
+                margin-left: 30px; 
+                color: #646668;
+            }
+
+            a {
+                color: #ff6000; 
+                font-weight: bold;
+            }
+
+            a:hover {
+                color: #d04e00;
+            }
+        </style>
     </head>
     <body>
         <h1>Hello world.</h1>
@@ -20,7 +47,7 @@
                         e.returnValue = false;
                     }
 
-                    document.cookie = 'cookieinfo=true; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/';
+                    document.cookie = 'cookieinfo=true; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/grafmag-cookieinfo/';
                     document.location.reload();
                 });
             } else {
@@ -31,7 +58,7 @@
                         e.returnValue = false;
                     }
                     
-                    document.cookie = 'cookieinfo=true; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/';
+                    document.cookie = 'cookieinfo=true; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/grafmag-cookieinfo/';
                     document.location.reload();
                 });
             }
